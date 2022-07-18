@@ -18,6 +18,10 @@ ol {
   margin: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-image: url(img/grass-texture-1166117.jpg);
   background-repeat: no-repeat;
@@ -44,7 +48,12 @@ body {
   color: rgb(179, 24, 132);
   animation: pulse;
   animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-top: 25px;
+  margin-bottom: -30px;
 }
+
+/* .img-start {} */
 
 .container {
   display: none;
