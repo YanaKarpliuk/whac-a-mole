@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  <link rel="stylesheet" href="index.css">
+  <title>Whack-a-mole</title>
+</head>
+<body>
+  <button id="start-btn" class="btn">Start Game</button>
+  <button id="end-btn" class="btn">End Game</button>
+  <div class="start-container">
+    <h1 class="start-title animate__pulse" >Whac-A-Mole</h1>
+    <img class="start-img" src="img/mole2.png" alt="mole">
+  </div>
+  <div class="container">
+    <div class="box-container">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>    
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <div class="container-count">
+      <p class="count-el">
+        <img class="img" src="img/Flag_icon_red_4.svg.png" alt="flag">
+        <span class="score">Score: 0</span> 
+      </p>
+      <!-- <p id="countdown">
+        <img class="img" src="img/369381.svg" alt="sandclock">
+        Countdown</p> -->
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

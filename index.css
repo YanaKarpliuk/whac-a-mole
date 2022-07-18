@@ -1,0 +1,129 @@
+* {
+  font-family: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(img/grass-texture-1166117.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 700px;
+  width: 700px;
+}
+
+.start-title {
+  font-family: 'Luckiest Guy';
+  font-size: 90px;
+  color: rgb(179, 24, 132);
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+.container {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 780px;
+  /* margin-bottom: 15px; */
+}
+
+.box {
+  background-color: rgb(110, 66, 37);
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.btn {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Balsamiq Sans';
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#start-btn {
+  background-color: rgb(136, 226, 19);
+  border: 5px solid orange;
+}
+
+#start-btn:hover, #start-btn:focus {
+  background-color: rgb(115, 194, 12);
+  box-shadow: 10px 10px 5px rgba(97, 179, 16, 0.377);
+}
+
+#end-btn {
+  display: none;
+  border: 5px solid rgb(206, 8, 8);
+  background-color: orange;
+}
+
+#end-btn:hover, #end-btn:focus {
+  background-color: rgb(216, 147, 19);
+  box-shadow: 10px 10px 5px rgba(179, 155, 16, 0.377);
+}
+
+.container-count {
+  display: none;
+  /* display: block; */
+  background-image: url(img/brett-mit-loechern-nomask.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+  font-family: 'Balsamiq Sans';
+  font-size: 35px;
+  font-weight: 600;
+  text-align: start;
+  width: 250px;
+  padding: 20px;
+}
+
+.img {
+  padding-left: 10px;
+  width: 25px;
+  height: 25px;
+}
